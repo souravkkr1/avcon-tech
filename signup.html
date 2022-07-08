@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 100%;
+            min-height: 100vh;
+            overflow-x: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container{
+            width: 400px;
+            height: 500px;
+            padding: 50px 40px;
+            background-color: #48C9B0;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .input-control{
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 18px;
+            border: none;
+            outline: 0;
+        }
+
+        .btn{
+            width: 100%;
+            padding: 18px 20px;
+            cursor: pointer;
+            background-color: #17A589;
+            color: white;
+            border: none;
+            outline: 0;
+            font-family: system-ui;
+            font-size: 16px;
+        }
+
+        .heading{
+            margin-bottom: 20px;
+            color: white;
+            font-family: system-ui;
+            font-size: 27px;
+            font-weight: 100;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+
+        <p class="heading">- Visitor -</p>
+        <input type="text" class="input-control" placeholder="Full name">
+        <input type="text" class="input-control" placeholder="Email">
+        <input type="text" class="input-control" placeholder="Organization">
+
+        <button class="btn">SIGN UP</button>
+        <button class="btn">RETURN</button>
+
+    </div>
+
+</body>
+</html>
